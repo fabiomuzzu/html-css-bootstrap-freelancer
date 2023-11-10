@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/* BACKGROUND COLOR */
+
+.bg_acquamarina{
+    background-color: #1abc9c;
+}
+
 /* HEADER */
 header{
     width: 100%;
@@ -18,5 +24,19 @@ header{
 .hr_content{
     width: 100%;
     height: 40px;
-    background-color: red;
+    background-color: pink;
+}
+
+/* MAIN */
+
+/* sezione 1 */
+#section1 .content{
+    height: 400px;
+    background-color: pink;
+}
+
+/* sezione 2 */
+#section2 .content{
+    height: 150px;
+    background-color: pink;
 }
