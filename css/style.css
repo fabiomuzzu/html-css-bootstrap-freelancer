@@ -146,10 +146,12 @@ h3:after {
 
 /* sezione 4 */
 #section4 .content{
-    height: 500px;
-    background-color: pink;
+    height: auto;
 }
 
+.input-group{
+    padding: 5px 0;
+}
 /* FOOTER */
 footer .content{
     height: 100px;
