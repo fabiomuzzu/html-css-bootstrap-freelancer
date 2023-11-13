@@ -45,8 +45,66 @@ header ul{
 
 /* sezione 1 */
 #section1 .content{
-    height: 400px;
-    background-color: pink;
+    width: 100%;
+    height: auto;
+}
+
+h1, h2, h5{
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+h2 {
+    margin: 20px 100px;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+}
+
+h2:before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #fff;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+
+h2:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #fff;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+
+#jumbo-img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#jumbo-img-container img{
+    width: 60%;
+}
+
+@media screen and (min-width:768px){
+    #jumbo-img-container img{
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:992px){
+    #jumbo-img-container img{
+        width: 25%;
+    }
 }
 
 /* sezione 2 */
