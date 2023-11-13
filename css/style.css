@@ -136,9 +136,12 @@ h3:after {
 
 /* sezione 3 */
 #section3 .content{
-    height: 150px;
-    background-color: pink;
+    height: auto;
     color: white;
+}
+
+#section3 i:last-child{
+    margin-right: 5px;
 }
 
 /* sezione 4 */
